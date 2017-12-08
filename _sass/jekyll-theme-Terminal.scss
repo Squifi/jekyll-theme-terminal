@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+// Define defaults for variables
+
+$base-font-size:     16px !default;
+
+$console-color:      #008800 !default;
+$highlight-color:    #ffaaaa;
+$cat-color:          #fff;
+$ls-color:           #ff4444;
+
+
+$background-color:   #000;
+$font-family:        courier, monospace;
+
+$zero-distance:      0px;
+$min-distance:       10px;
+$normal-distance:    20px;
+$large-distance:     40px;
+$footer-height:      30px;
+
+$content-width:      800px;
+
+//Import partials
+@import
+   "jekyll-theme-Terminal/base",
+   "jekyll-theme-Terminal/cat"
+;

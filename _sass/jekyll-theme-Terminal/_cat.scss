@@ -1,0 +1,25 @@
+.wrapper {
+   margin-left: 10%;
+   min-height: calc(96vh - 50px);
+}
+
+.stdout {
+   margin: 0px auto;
+   padding: 0px $normal-distance;
+}
+
+.ls {
+   color: $ls-color;
+   margin: 0px auto;
+   padding: $min-distance $normal-distance;
+}
+
+.cat {
+   color: $cat-color;
+   margin-top: $min-distance;
+   padding: $min-distance;
+}
+
+.highlight {
+   color: $highlight-color;
+}

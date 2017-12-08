@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<section>
+   {% for item in site.posts %}
+   <article class="ls">
+      <a href="{{item.url}}">{{item.title}}</a>
+   </article>
+   {% endfor %}
+   <h4>[JaB@unicorn.university ~]$</h4>
+   <a href={{ site.baseurl }}>cd ~</a>
+</section>

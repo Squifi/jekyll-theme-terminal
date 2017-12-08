@@ -1,0 +1,43 @@
+/** Reset some basic elements **/
+
+body, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, hr, dl, dd, ol, ul, figure, header {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   height: 98%;
+   position: relative;
+   background-color: $background-color;
+   color: $cat-color;
+   font-family: $font-family;
+   margin: $zero-distance auto;
+   padding: $normal-distance;
+   font-size: $base-font-size;
+   margin-left: $normal-distance;
+}
+
+a {
+   color: $console-color;
+   text-decoration: none;
+}
+
+a:hover {
+   background-color: $console-color;
+   color: $cat-color;
+} 
+
+header, h4 {
+   color: $console-color;
+   display: inline;
+}
+
+article {
+   margin: 0 auto;
+}
+
+footer {
+   position: absolute;
+   height: 30px;
+}
