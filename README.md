@@ -3,12 +3,15 @@
 Welcome to your new jekyll-theme-terminal Layout.
 Currently still in development, but working hard on it.
 
+BUGS: Problems adding the missing stylesheets and layouts :-/
+      Check back for repairs and updates, working on it.
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-theme-terminal"
+gem "jekyll-theme-terminal", "~>0.2.1"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
@@ -31,7 +34,9 @@ TODO: Write usage instructions here. Describe your available layouts, includes, 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Squifi/jekyll-theme-terminal. 
+
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
