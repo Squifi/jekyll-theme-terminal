@@ -8,6 +8,6 @@ layout: default
       <a href="{{item.url}}">{{item.title}}</a>
    </article>
    {% endfor %}
-   <h4>[JaB@unicorn.university ~]$</h4>
+   <h4>[{{site.author}}@{{ site.url | escape }} ~]$</h4>
    <a href={{ site.baseurl }}>cd ~</a>
 </section>

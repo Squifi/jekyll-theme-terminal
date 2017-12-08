@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-theme-Terminal"
-  spec.version       = "0.1.1"
+  spec.name          = "jekyll-theme-terminal"
+  spec.version       = "0.2.1"
   spec.authors       = ["squifi"]
   spec.email         = ["janeshipmistress@gmail.com"]
 
   spec.summary       = %q{A Layout of a Terminal for a webpage}
-  spec.homepage      = "https://github.com/Squifi/jekyll-theme-Terminal"
+  spec.homepage      = "https://github.com/Squifi/jekyll-theme-terminal"
   spec.license       = "MIT"
 
 spec.files = `git ls-files -z`.split("\x0").select do |f|

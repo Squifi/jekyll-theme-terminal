@@ -1,6 +1,6 @@
-# jekyll-theme-Terminal
+# jekyll-theme-terminal
 
-Welcome to your new jekyll-theme-Terminal Layout.
+Welcome to your new jekyll-theme-terminal Layout.
 Currently still in development, but working hard on it.
 
 ## Installation
@@ -8,13 +8,13 @@ Currently still in development, but working hard on it.
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-theme-Terminal"
+gem "jekyll-theme-terminal"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: jekyll-theme-Terminal
+theme: jekyll-theme-terminal
 ```
 
 And then execute:
@@ -23,7 +23,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jekyll-theme-Terminal
+    $ gem install jekyll-theme-terminal
 
 ## Usage
 
@@ -40,7 +40,7 @@ To set up your environment to develop this theme, run `bundle install`.
 Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-Terminal.gemspec` accordingly.
+To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-terminal.gemspec` accordingly.
 
 ## License
 
