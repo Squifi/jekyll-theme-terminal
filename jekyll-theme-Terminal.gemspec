@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["squifi@nomail.ws"]
 
   spec.summary       = %q{A Layout of a Terminal for a webpage}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/Squifi/jekyll-theme-Terminal"
   spec.license       = "MIT"
 
 spec.files = `git ls-files -z`.split("\x0").select do |f|
