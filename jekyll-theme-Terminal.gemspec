@@ -2,9 +2,9 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-Terminal"
-  spec.version       = "0.1a"
+  spec.version       = "0.1.1"
   spec.authors       = ["squifi"]
-  spec.email         = ["squifi@nomail.ws"]
+  spec.email         = ["janeshipmistress@gmail.com"]
 
   spec.summary       = %q{A Layout of a Terminal for a webpage}
   spec.homepage      = "https://github.com/Squifi/jekyll-theme-Terminal"
