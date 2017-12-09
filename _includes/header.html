@@ -1,4 +1,8 @@
 <header class="site-header">
    <h4>[{{site.author}}@{{ site.url | escape }} ~]$</h4>
-   <h4>cat <a href="/">{% if page.title %}{{ page.title | escape }} {% else %}{{ site.title | escape }}{% endif %}</a></h4>
+   <div class="inline"><a href="/about/">whois</a></div>
+   <h4>cat <a href="/">
+         {% if page.title %}{{ page.title | escape }} {% else %}{{ site.title | escape }}{% endif %}
+      </a>
+   </h4>
 </header>
