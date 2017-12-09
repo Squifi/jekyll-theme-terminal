@@ -1,5 +1,5 @@
 .wrapper {
-   margin-left: 10%;
+   width: 80%;
    min-height: calc(96vh - 50px);
 }
 
@@ -22,4 +22,9 @@
 
 .highlight {
    color: $highlight-color;
+}
+
+.inline {
+   display: inline;
+   text-align: right;
 }
