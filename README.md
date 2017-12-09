@@ -1,5 +1,10 @@
 # jekyll-theme-terminal
 
+*** Currently in ALPHA ***
+
+Sadly the main.css is not linking correctly and some minor tweaks are needed to display posts.
+Currently posts will only be visible via the whois link, which is kind of weird :)
+
 Welcome to your new jekyll-theme-terminal Layout.
 Currently still in development, but working hard on it.
 
@@ -11,7 +16,7 @@ BUGS: Problems adding the missing stylesheets and layouts :-/
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-theme-terminal", "~>0.2.1"
+gem "jekyll-theme-terminal", "~>0.2.9"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
