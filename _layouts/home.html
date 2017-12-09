@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-
 {% include head.html %}
-
 <body>
    {% include header.html%}
       <div class="wrapper">
-      <h3>127.0.0.1</h3>
+         <center><h3>127.0.0.1</h3><center>
          {{ content }}
       </div>
+   <h4>[{{site.author}}@{{ site.url | escape }} ~]$ <a href="/">cd ~</a></h4>
    {% include footer.html %}
 </body>
 </html>
