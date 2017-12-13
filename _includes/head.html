@@ -13,4 +13,82 @@
       <script src="https://osss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
       </script>
    <![endif]-->
+   <style>
+      /** Reset some basic elements **/
+      /** Moving this into here for a while. **/ 
+
+   body, h1, h2, h3, h4, h5, h6, 
+   p, blockquote, pre, hr, dl, dd, ol, ul, figure, header {
+      margin: 0;
+      padding: 0;
+   }
+
+   body {
+      height: 98%;
+      position: relative;
+      background-color:#000;
+      color: #fff;
+      font-family: courier, monospace;
+      margin: 0 auto;
+      padding: 0;
+      font-size: 16px !default;
+      margin-left: 0;
+   }
+
+   a {
+      color: #008800 !default;
+      text-decoration: none;
+   }
+
+   a:hover {
+      background-color: #008800 !default;
+      color: #fff;
+   } 
+
+   header, h4 {
+      color: #008800 !default;
+      display: inline;
+   }
+
+   article {
+      margin: 0 auto;
+   }
+
+   footer {
+      position: absolute;
+      height: 30px;
+   }
+   
+   .wrapper {
+      width: 80%;
+      min-height: calc(96vh - 50px);
+   }
+
+   .stdout {
+      margin: 0px auto;
+      padding: 0px 20px;
+   }
+
+   .ls {
+      color: #ff4444;
+      margin: 0px auto;
+      padding: 10px 20px;
+   }
+
+   .cat {
+      color: #fff;
+      margin-top: 10px;
+      padding: 10px;
+      text-align: left;
+   }
+
+   .highlight {
+      color: #ffaaaa;
+   }
+
+   .inline {
+      display: inline;
+      text-align: right;
+   }
+   </style>
 </head>
