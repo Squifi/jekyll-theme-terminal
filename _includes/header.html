@@ -1,7 +1,7 @@
 <header class="site-header">
    <h4>[{{site.author}}@{{ site.url | escape }} ~]$</h4>
    <div style="display:inline; text-align: right;">
-       {% for p in page.collections %}
+       {% for p in site.posts %}
            {{ <a href="p.url">./p.title</a> }}
        {% endfor %}
        <a href="/about/">whois</a>

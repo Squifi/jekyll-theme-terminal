@@ -1,13 +1,14 @@
 # jekyll-theme-terminal
 
-Looks like a Terminal: Currently without any functionality.
+Looks like a Terminal: Currently only a design, no scripting.
+Moved Style inline into _includes in order to not require .scss files.
 
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-theme-terminal", "~>0.4.0"
+gem "jekyll-theme-terminal", "~>0.4.2"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
