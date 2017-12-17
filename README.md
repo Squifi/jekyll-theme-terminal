@@ -8,7 +8,7 @@ Moved Style inline into _includes in order to not require .scss files.
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-theme-terminal", "~>0.4.2"
+gem "jekyll-theme-terminal"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
