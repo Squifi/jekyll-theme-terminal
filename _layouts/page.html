@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
+{{content}}
 <section>
    {% for item in site.posts %}
    <article class="ls">
-      <a href="{{item.url}}">{{item.title}}</a>
+      <a href="{{item.url}}">-rwxrwxr-x. 1 {{site.author}} {{site.author}} {{item.content | number of words }} {{item.date}}{{item.title}}</a>
    </article>
    {% endfor %}
    <h4>[{{site.author}}@{{ site.url | escape }} ~]$</h4>
