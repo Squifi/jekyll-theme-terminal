@@ -1,6 +1,5 @@
 <header class="site-header">
-   <h4>[{{site.author}}@{{ site.url | escape }} ~/
-     {% if page.title %}
+   <h4>[{{site.author}}@{{ site.url | escape }} ~/{% if page.title %}
         {{ page.title | escape }} 
      {% else %}
         {{ site.title | escape }}
@@ -8,8 +7,8 @@
     ]$
    </h4>
    <div style="display:inline; float: right;">
-       <a href="/">./~</a>
-       <a href="/ls/">ls -la</a>
-       <a href="/about/">whois</a>
+       <a href="/">./~ </a>
+       <a href="/ls/">> ./ls -la</a>
+       <a href="/about/"> ./whois</a>
    </div>
 </header>
