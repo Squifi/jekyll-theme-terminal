@@ -1,18 +1,16 @@
 <header class="site-header">
-   <h4>[{{site.author}}@{{ site.url | escape }} ~]$</h4>
-   <div style="display:inline; text-align: right;">
-       {% for p in site.posts %}
-           {{ <a href="p.url">./p.title</a> }}
-       {% endfor %}
-       <a href="/about/">whois</a>
-   </div>
-   <h4>cat 
-   <a href="/">
+   <h4>[{{site.author}}@{{ site.url | escape }} ~/
      {% if page.title %}
         {{ page.title | escape }} 
      {% else %}
         {{ site.title | escape }}
     {% endif %}
-   </a>
+    ]$
    </h4>
+   <div style="display:inline; float: right;">
+       {% for p in site.posts %}
+           <a href="{{p.url}}">./{{p.title}}</a>
+       {% endfor %}
+       <a href="/about/">whois</a>
+   </div>
 </header>
