@@ -24,6 +24,10 @@
 
 .highlight {
    color: $highlight-color;
+   padding: .5em 1em;
+   margin: .5em;
+   background-color: #121212;
+   overflow: auto;
 }
 
 .inline {
