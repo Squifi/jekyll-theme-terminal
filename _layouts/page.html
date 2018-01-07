@@ -7,7 +7,7 @@ layout: default
 <section>
    {% for item in site.posts %}
    <article class="ls">
-      -rwxrwxr-x. 1 {{site.author}} {{site.author}} {{item.content | number_of_words }} {{item.date}} <a href="{{item.url}}">{{item.title}}</a>
+      -rwxrwxr-x. 1 {{site.author}} {{item.author}} {{item.content | number_of_words }} {{item.date}} <a href="{{item.url}}">{{item.title}}</a>
    </article>
    {% endfor %}
    <h4>[{{site.author}}@{{ site.url | escape }} ~]$</h4>
